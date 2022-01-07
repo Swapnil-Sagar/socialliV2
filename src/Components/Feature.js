@@ -35,7 +35,7 @@ function Feature({ type }) {
         {type === 'train' ? (
           <>
             <h4>TRAIN</h4>
-            <h1>Train you Community</h1>
+            <h1>Train your Community</h1>
             <p>{content3}</p>
           </>
         ) : (

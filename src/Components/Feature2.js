@@ -41,7 +41,7 @@ function Feature2({ type }) {
         ) : (
           <>
             <h4>DESIGN</h4>
-            <h1>Design you Economy</h1>
+            <h1>Design your Economy</h1>
             <p>{content2}</p>
           </>
         )}
