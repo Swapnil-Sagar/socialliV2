@@ -1073,8 +1073,14 @@ ul {
   padding: 0 15px;
   text-align: left;
 }
+.footer-col ul li :hover {
+  color: #ffffff;
+  text-align: initial;
+  background: -webkit-linear-gradient(90deg, #17bef0, #4ced65);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .footer-col2 {
-  /* width: 45%; */
   padding: 0 15px;
   text-align: left;
 }
@@ -1244,7 +1250,7 @@ ul {
 .menu-wrap .toggler {
   position: absolute;
   top: 0;
-  right: 2%;
+  right:1rem;
   z-index: 2;
   cursor: pointer;
   width: 50px;
@@ -1255,7 +1261,7 @@ ul {
 .menu-wrap .hamburger {
   position: absolute;
   top: 0;
-  right: 2rem;
+  right: 1rem;
   z-index: 1;
   width: 60px;
   height: 60px;

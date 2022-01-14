@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import logo from '../images/img_socialli logo big@1x.png'
 import Menu from './Menu'
 
-function Navbar() {
+
+function Navbar({innerPage=false}) {
   const [nav, setNav] = useState(false)
 
   const changeBackground = () => {
@@ -15,7 +16,7 @@ function Navbar() {
   window.addEventListener('scroll', changeBackground)
   return (
     <>
-      <nav className={nav ? 'nav active' : 'nav'}>
+      <nav className={nav || innerPage ? 'nav active' : 'nav'}>
         <a href="/" className="logo">
           <img src={logo} alt="" />
         </a>

@@ -1,9 +1,9 @@
-import React from 'react'
-import telegram from '../images/img_telegram-logo@1x.png'
-import discord from '../images/img_discord-white-logo@1x.png'
-import logo from '../images/img_socialli logo big@1x.png'
-import illus from '../images/V2/img_illu-7@2x.png'
-
+import React from "react";
+import telegram from "../images/img_telegram-logo@1x.png";
+import discord from "../images/img_discord-white-logo@1x.png";
+import logo from "../images/img_socialli logo big@1x.png";
+import illus from "../images/V2/img_illu-7@2x.png";
+import { Link } from "react-router-dom";
 function Footer() {
   return (
     // <div id="contact">
@@ -152,19 +152,29 @@ function Footer() {
                     <h4>Try Social.li</h4>
                     <ul>
                       <li>
-                        <a href="#">Creators</a>
+                        <Link to="/creators">
+                          <a href="#">Creators</a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">Communities</a>
+                        <Link to="/communites">
+                          <a href="#">Communities</a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">Game Developers</a>
+                        <Link to="/game-developers">
+                          <a href="#">Game Developers</a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">Social Networks</a>
+                        <Link to="/social-networks">
+                          <a href="#">Social Networks</a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">Metaverse Onboarding</a>
+                        <Link to="/metaverse-onboarding">
+                          <a href="#">Metaverse Onboarding</a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -217,7 +227,7 @@ function Footer() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

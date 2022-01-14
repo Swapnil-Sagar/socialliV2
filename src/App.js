@@ -1,25 +1,39 @@
-import React from 'react'
-import Header from './Components/Header'
-import Feature from './Components/Feature'
-import Feature2 from './Components/Feature2'
-import Apply from './Components/Apply'
-import Footer from './Components/Footer'
-import Menu from './Components/Menu'
-import './App.css'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import MainPage from "./container/mainPage";
+import Creators from "./container/creators/Creators";
+import Communites from "./container/communites/Communites";
+import GameDeveloper from "./container/gameDeveloper/GameDeveloper";
+import SocialNetworks from "./container/socialNetworks/SocialNetworks";
+import MetaverseOnboarding from "./container/metaverseOnboarding/MetaverseOnboarding";
+
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Menu />
-      <Header />
-      <Feature type="launch" />
-      <Feature2 type="design" />
-      <Feature type="train" />
-      <Feature2 type="migrate" />
-      <Apply />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<MainPage />} />
+          <Route exact path="/communites" element={<Communites />} />
+          <Route exact path="/creators" element={<Creators />} />
+          <Route exact path="/game-developers" element={<GameDeveloper />} />
+          <Route exact path="/social-networks" element={<SocialNetworks />} />
+          <Route
+            exact
+            path="/metaverse-onboarding"
+            element={<MetaverseOnboarding />}
+          />
+          {/* {!isLoggedIn ? (
+          <Route path="/" component={Auth} />
+        ) : (
+          <ProtectedRoute path="/admin" component={Admin} />
+        )}
+        {isLoggedIn && <Redirect to="/admin/dashboard" />} */}
+        </Routes>
+      </Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

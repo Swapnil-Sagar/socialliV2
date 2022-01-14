@@ -1,0 +1,51 @@
+#metaverse {
+  width: 100%;
+  height: 126vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  /* background-image: url('./images/img_banner-illu-01@1x.png'); */
+
+  background: url("../../images/V2/img_illu-inner-5@2x.png") no-repeat center
+    center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.rectangle-1 {
+  box-sizing: border-box;
+  height: 100%;
+  width: 35%;
+  border: 1px solid #6677e6;
+  border-radius: 1rem;
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  text-align: start;
+}
+.rectangle-1 li {
+  list-style: none;
+  padding: 0rem 0rem 1rem 2rem;
+  display: flex;
+  align-items: center;
+}
+.rectangle-1 li::before {
+  content: "\2022";
+  color: #00bdee;
+  font-weight: bold;
+  font-size: 2.5rem;
+  display: inline-block;
+  width: 0.5em;
+}
+
+@media (max-width: 480px) {
+  #metaverse {
+    height: 48vh;
+    background-image: url("../../images/V2/img_illu-inner-mobile-5.png");
+  }
+  .rectangle-1 {
+    width: 90%;
+  }
+}
