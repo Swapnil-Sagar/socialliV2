@@ -16,7 +16,7 @@
 }
 @media (max-width: 480px) {
   #gameDeveloper {
-    height: 48vh;
+    height: 40vh;
     background-image: url("../../images/V2/img_illu-inner-mobile-3.png");
   }
 }

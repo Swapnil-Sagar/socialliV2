@@ -35,10 +35,13 @@ const GameDeveloper = () => {
               frontrunner by integrating the Social.li SDK to transform your
               game currency and artefacts into crypto and NFTs.
               <br />
+              <br />
               Use built in Play2Earn and Decentralised Finance to create
               unprecedented incentives for your gamers.
               <br />
+              <br />
               Leverage your community across titles and seasons.
+              <br />
               <br />
               Build in-game economies and marketplaces with NFTs.
             </p>
@@ -78,10 +81,13 @@ const GameDeveloper = () => {
                 frontrunner by integrating the Social.li SDK to transform your
                 game currency and artefacts into crypto and NFTs.
                 <br />
+                <br />
                 Use built in Play2Earn and Decentralised Finance to create
                 unprecedented incentives for your gamers.
                 <br />
+                <br />
                 Leverage your community across titles and seasons.
+                <br />
                 <br />
                 Build in-game economies and marketplaces with NFTs.
               </p>

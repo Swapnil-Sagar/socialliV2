@@ -23,14 +23,11 @@
   background-size: cover;
 }
 #center-star {
-  position: absolute;
-  top: -14%;
-  left: 0%;
-  /* width: 100%; */
-  height: 10vh;
-  position: relative;
+  margin-top: -50px;
+  margin-left: 40%;
+  width: 100px;
+  height: 100px;
   background-repeat: no-repeat;
-  margin-bottom: -2rem;
   background-position: center top;
   background-size: cover;
   background: url("../images/V2/img_star2@2x.png") no-repeat center center;
@@ -73,10 +70,8 @@
   padding: 0 2rem;
   max-width: 40rem;
   position: absolute;
-  left: 18%;
   top: 40%;
-  transform: translate(-30%, -50%);
-  /* transform: translate(0%, 20rem); */
+  transform: translate(10%, -50%);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -182,8 +177,14 @@
     background-image: url("../images/V2/img_illu-inner-mobile-6.png");
   }
   #center-star {
-    height: 10vh;
-    background-image: url("../images/V2/img_star1.png");
+    margin-top: -30px;
+    margin-left: 42%;
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-image: url("../images/V2/img_star1.png") no-repeat center center;
   }
   .left-bene {
     font-size: 2rem;
