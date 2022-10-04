@@ -24,12 +24,6 @@ function App() {
             path="/metaverse-onboarding"
             element={<MetaverseOnboarding />}
           />
-          {/* {!isLoggedIn ? (
-          <Route path="/" component={Auth} />
-        ) : (
-          <ProtectedRoute path="/admin" component={Admin} />
-        )}
-        {isLoggedIn && <Redirect to="/admin/dashboard" />} */}
         </Routes>
       </Router>
     </div>
