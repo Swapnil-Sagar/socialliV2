@@ -13,7 +13,7 @@ function Apply({ type }) {
           <div className="metaverse-img1">
             <img src={star1} alt="" />
           </div>
-          <h1>Metaverse</h1>
+          <h1>METAVERSE</h1>
           <div className="metaverse-img2">
             <img src={star2} alt="" />
           </div>
